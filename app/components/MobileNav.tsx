@@ -51,9 +51,9 @@ export default function MobileNav() {
         <div className="flex flex-col h-full justify-center items-center gap-[40px] p-8">
           <ul className="flex flex-col gap-[35px] items-center">
             <li>
-              <a href="/" onClick={handleLinkClick} className="font-semibold text-xl text-white hover:text-portto-light-gold transition-all duration-300 hover:scale-110 block">
+              <Link href="/" onClick={handleLinkClick} className="font-semibold text-xl text-white hover:text-portto-light-gold transition-all duration-300 hover:scale-110 block">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#Services" onClick={handleLinkClick} className="font-semibold text-xl text-white hover:text-portto-light-gold transition-all duration-300 hover:scale-110 block">

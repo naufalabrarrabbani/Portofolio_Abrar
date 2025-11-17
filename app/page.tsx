@@ -18,9 +18,9 @@ export default function Home() {
           <div className="hidden sm:flex gap-[50px] items-center">
             <ul className="flex gap-[50px] items-center text-white">
               <li>
-                <a href="/" className="font-medium text-lg hover:text-portto-light-gold transition-all duration-300">
+                <Link href="/" className="font-medium text-lg hover:text-portto-light-gold transition-all duration-300">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#Services" className="font-medium text-lg hover:text-portto-light-gold transition-all duration-300">
@@ -735,7 +735,7 @@ export default function Home() {
             {/* Left Content */}
             <div className="flex flex-col gap-[15px] sm:gap-[20px] text-white flex-1">
               <h3 className="font-extrabold text-[22px] sm:text-[36px] leading-[28px] sm:leading-[44px]">
-                Let's Work Together! 🚀
+                Let&apos;s Work Together!
               </h3>
               <p className="text-[12px] sm:text-base leading-[18px] sm:leading-[26px] opacity-90">
                 Ready to bring your ideas to life?
@@ -798,7 +798,7 @@ export default function Home() {
                 <Image src="/assets/images/logofix.png" alt="logo" width={100} height={60} />
               </div>
               <p className="font-semibold text-[22px] leading-[40px]">
-                &quot;He helped create the digital platform for our knitting class events <a href="https://rajutclass.id" target="_blank" rel="noopener noreferrer" className="italic text-portto-purple hover:underline">rajutclass.id</a>, complete with payment gateway integration, and I'm very happy with the result.&quot;
+                &quot;He helped create the digital platform for our knitting class events <a href="https://rajutclass.id" target="_blank" rel="noopener noreferrer" className="italic text-portto-purple hover:underline">rajutclass.id</a>, complete with payment gateway integration, and I&apos;m very happy with the result.&quot;
               </p>
               <div className="flex h-8">
                 {[1, 2, 3, 4, 5].map((star) => (
