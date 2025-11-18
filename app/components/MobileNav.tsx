@@ -76,9 +76,9 @@ export default function MobileNav() {
               </a>
             </li>
           </ul>
-          <a href="#hire" onClick={handleLinkClick} className="bg-portto-light-gold font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_0_#FFE7C280] hover:scale-105 text-center text-portto-black mt-4">
+          <Link href="/assets/doc/CV-Naufal Abrar.pdf" target="_blank" className="bg-portto-light-gold font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_0_#FFE7C280] hover:scale-105 text-center text-portto-black mt-4">
             Hire Me
-          </a>
+          </Link>
           
           {/* Decorative Element */}
           <Image 

@@ -43,9 +43,9 @@ export default function Home() {
                 </a>
               </li>
             </ul>
-            <button className="bg-portto-light-gold font-bold text-lg p-[14px_30px] rounded-full transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">
+            <Link href="/assets/doc/CV-Naufal Abrar.pdf" target="_blank" className="bg-portto-light-gold font-bold text-lg p-[14px_30px] rounded-full transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">
               Hire Me
-            </button>
+            </Link>
           </div>
         </nav>
 
@@ -663,20 +663,40 @@ export default function Home() {
 
         {/* Mobile Projects */}
         <div className="project-container-mobile flex sm:hidden flex-col gap-[30px]">
-          {[1, 2, 3].map((num) => (
-            <div key={`mobile-${num}`} className="group w-full rounded-[30px] border border-white p-4 bg-[#FFFFFF33] backdrop-blur relative">
-              <Link href="/details" className="block w-full aspect-[16/10] rounded-[25px] overflow-hidden bg-gray-100 flex items-center justify-center">
-                <Image 
-                  src={`/assets/images/thumbnails/thumbnails${num}.png`} 
-                  className="max-w-full max-h-full object-contain" 
-                  alt="thumbnail"
-                  width={400}
-                  height={250}
-                />
-              </Link>
-            </div>
-          ))}
-          <Link href="/details" className="mx-auto font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">
+          <div className="group w-full rounded-[30px] border border-white p-4 bg-[#FFFFFF33] backdrop-blur relative">
+            <Link href="https://iqrafun.id" target="_blank" className="block w-full aspect-[16/10] rounded-[25px] overflow-hidden bg-gray-100 flex items-center justify-center">
+              <Image 
+                src="/assets/images/thumbnails/thumbnails1.png" 
+                className="max-w-full max-h-full object-contain" 
+                alt="thumbnail"
+                width={400}
+                height={250}
+              />
+            </Link>
+          </div>
+          <div className="group w-full rounded-[30px] border border-white p-4 bg-[#FFFFFF33] backdrop-blur relative">
+            <Link href="https://medium.com/@naufalabrarrabbanii/ui-ux-case-study-fitur-gamifikasi-pada-aplikasi-campaign-com-38f57f1a2548" target="_blank" className="block w-full aspect-[16/10] rounded-[25px] overflow-hidden bg-gray-100 flex items-center justify-center">
+              <Image 
+                src="/assets/images/thumbnails/thumbnails2.png" 
+                className="max-w-full max-h-full object-contain" 
+                alt="thumbnail"
+                width={400}
+                height={250}
+              />
+            </Link>
+          </div>
+          <div className="group w-full rounded-[30px] border border-white p-4 bg-[#FFFFFF33] backdrop-blur relative">
+            <Link href="https://rajutclass.id" target="_blank" className="block w-full aspect-[16/10] rounded-[25px] overflow-hidden bg-gray-100 flex items-center justify-center">
+              <Image 
+                src="/assets/images/thumbnails/thumbnails3.png" 
+                className="max-w-full max-h-full object-contain" 
+                alt="thumbnail"
+                width={400}
+                height={250}
+              />
+            </Link>
+          </div>
+          <Link href="/assets/doc/CV-Naufal Abrar.pdf" target="_blank" className="mx-auto sm:hidden font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">
             View All Projects
           </Link>
         </div>
